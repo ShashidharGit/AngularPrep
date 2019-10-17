@@ -1,0 +1,37 @@
+<table class="table-styles">
+    <tr>
+        <td>
+            <img src="C:\Users\jisass6\Pictures\Camera Roll\ducati-panigale-wallpaper-hd" class="image-styles">
+        </td>
+    </tr>
+    <table class="inner-table-styles">
+        <tr>
+            <td>Name</td>
+            <td>{{Prod.Name}}</td>
+        </tr>
+        <tr>
+            <td>Price</td>
+            <td>{{Prod.Price}}</td>
+        </tr>
+        <tr>
+            <td>MFG</td>
+            <td>{{Prod.MFG.tolocalDateString()}}</td>
+        </tr>
+        <tr>
+            <td>Photo</td>
+            <td>{{Prod.Photo}}</td>
+        </tr>
+        <tr>
+            <td>Qty</td>
+            <td>{{Prod.Qty}}</td>
+        </tr>
+        <tr>
+            <td>IsInStock</td>
+            <td>{{Prod.IsInStock ? 'Available':'OutOfStock'}}</td>
+        </tr>
+        <tr>
+            <td>TotalAmount</td>
+            <td><span innerHTML='{{Prod.Qty*Prod.Price}}'></span></td>
+        </tr>
+    </table>
+</table>

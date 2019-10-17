@@ -1,0 +1,18 @@
+.image-styles {
+  width: 100px;
+  height: 100px;
+}
+
+.table-styles {
+  box-align: center;
+  width: 1000px;
+  border: 2px;
+  border-spacing: 10px;
+  padding: 10px;
+}
+
+.inner-table-styles {
+  range: box;
+  fill: all;
+  box-align: center;
+}

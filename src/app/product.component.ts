@@ -5,9 +5,8 @@ import { Component } from '@angular/core';
   templateUrl: './product.component.html',
   styleUrls: ['./product.component.scss']
 })
-export class AppComponent {
+export class productcomponent {
   title = 'ShoppingCart';
-
   product = {
     Name: 'SONY TV',
     Price: 50.00,
